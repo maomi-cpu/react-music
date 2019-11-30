@@ -1,0 +1,60 @@
+.App {
+  width: 1000px;
+  margin: 0px auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.App-cd{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: solid 5px white;
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  /* background-image: url("../public/music/半壶纱.jpg"); */
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+}
+
+.App-cd:hover{
+  right: -300px;
+}
+
+.App-cd-spin{
+  animation: App-cd-spin 10s linear infinite;
+}
+
+@keyframes App-cd-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-cd-hole{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid 5px white;
+  background-color: #c7c7c7;
+}
+
+
+.App-play-box{
+  display: flex;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+.App-play-right{
+  width: 800px;
+  flex-shrink: 0;
+}
+

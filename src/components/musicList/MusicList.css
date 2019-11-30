@@ -1,0 +1,28 @@
+.MusicList{
+    width: 200px;
+    height: 600px;
+    flex-shrink: 0;
+    border-right: solid 2px #ccc;
+}
+
+.MusicList-play-style{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: dotted 2px #79fa79;
+    height: 80px;
+}
+
+.MusicList-list-box{
+    color: white;
+    padding: 10px;
+}
+
+.MusicList-list-item{
+    padding: 5px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

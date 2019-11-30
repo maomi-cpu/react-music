@@ -1,0 +1,24 @@
+.ControlBox{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.ControlBox-progress{
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    color: white;
+}
+
+.ControlBox-control{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 70px;
+    border-top: solid 2px #ccc;
+    color: #00ccff;
+}
+
+

@@ -1,0 +1,17 @@
+/* 如果不配置 babel-plugin-import，那么需要手动引入css文件 */
+@import '~antd/dist/antd.css';
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  /* 整个背景页面的渐变色 */
+  background: radial-gradient(white,black);
+  overflow: hidden;
+  -moz-user-select: none;
+}
